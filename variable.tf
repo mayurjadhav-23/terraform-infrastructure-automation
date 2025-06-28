@@ -1,13 +1,13 @@
 variable "key_name" {
-  default = "aws-universal"
+  default = "<keyname>"
 
 }
 variable "inst_type" {
-  default = "t3.micro"
+  default = "<your instance_type>"
 
 }
 
 variable "ami_id" {
-  default = "ami-042b4708b1d05f512"
+  default = "<your ami_id>"
 
 }
